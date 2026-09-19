@@ -1,0 +1,1001 @@
+employee_id,transaction_amount,transaction_date,risk_score,risk_level,flagged,risk_reason
+EMP_012,676.91,2026-01-11 01:15:00,100.0,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours; Rapid succession submission (<15 min gap); Logged on a weekend
+EMP_002,12500.0,2026-01-01 03:45:00,98.61,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,1111.59,2026-01-02 23:15:00,91.72,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours
+EMP_008,726.72,2026-01-11 04:15:00,85.48,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours; Logged on a weekend
+EMP_001,566.62,2026-02-10 03:14:00,85.22,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours
+EMP_003,468.0,2026-01-10 00:15:00,83.31,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours; Rapid succession submission (<15 min gap); Logged on a weekend
+EMP_004,851.37,2026-01-03 22:30:00,83.21,HIGH,True,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,705.98,2026-01-03 07:30:00,83.13,HIGH,True,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,586.87,2026-01-07 11:15:00,82.94,HIGH,True,Amount significantly higher than employee average; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,724.72,2026-01-04 05:15:00,81.4,HIGH,True,Amount significantly higher than employee average; Submitted outside standard business hours; Logged on a weekend
+EMP_020,689.02,2026-01-03 17:00:00,78.32,HIGH,True,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,58.77,2026-01-01 03:00:00,78.11,HIGH,True,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,819.9,2026-01-09 06:00:00,77.63,HIGH,True,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,385.99,2026-01-01 00:30:00,76.74,HIGH,True,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,736.77,2026-01-06 13:00:00,76.51,HIGH,True,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,482.93,2026-01-03 19:45:00,73.73,HIGH,True,Amount significantly higher than employee average; Rapid succession submission (<15 min gap); Logged on a weekend
+EMP_008,15.01,2026-01-01 01:00:00,72.45,HIGH,True,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,495.79,2026-01-06 09:00:00,72.24,HIGH,True,Amount significantly higher than employee average; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,414.54,2026-01-03 08:30:00,71.81,HIGH,True,Rapid succession submission (<15 min gap); Logged on a weekend
+EMP_001,29.65,2026-01-01 18:45:00,71.49,HIGH,True,Behavioral profile shows minor statistical anomaly
+EMP_005,171.4,2026-01-11 02:30:00,71.03,HIGH,True,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Logged on a weekend
+EMP_010,569.4,2026-01-11 08:00:00,70.42,HIGH,True,Amount significantly higher than employee average; Logged on a weekend
+EMP_011,142.67,2026-01-01 00:45:00,69.58,MEDIUM,False,Submitted outside standard business hours
+EMP_012,643.67,2026-01-01 23:45:00,69.45,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,104.73,2026-01-01 07:00:00,69.43,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_008,29.48,2026-01-10 01:00:00,69.31,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,62.23,2026-01-01 08:15:00,68.69,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,500.92,2026-01-02 18:30:00,68.55,MEDIUM,False,Amount significantly higher than employee average; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,657.92,2026-01-07 02:30:00,68.1,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours
+EMP_008,78.07,2026-01-10 04:45:00,67.83,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,186.46,2026-01-10 08:30:00,67.42,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,606.38,2026-01-09 09:30:00,66.68,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,45.87,2026-01-01 03:30:00,66.65,MEDIUM,False,Submitted outside standard business hours
+EMP_015,682.83,2026-01-01 15:45:00,66.61,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,251.98,2026-01-01 11:45:00,66.34,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_007,104.02,2026-01-01 00:00:00,66.09,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,15.17,2026-01-01 02:15:00,66.02,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,108.33,2026-01-01 00:15:00,65.58,MEDIUM,False,Submitted outside standard business hours
+EMP_016,479.96,2026-01-03 15:00:00,65.01,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,237.46,2026-01-01 02:45:00,64.47,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,52.8,2026-01-01 01:30:00,64.25,MEDIUM,False,Submitted outside standard business hours
+EMP_008,633.61,2026-01-05 13:00:00,64.14,MEDIUM,False,Amount significantly higher than employee average
+EMP_016,40.59,2026-01-01 05:15:00,64.13,MEDIUM,False,Submitted outside standard business hours
+EMP_019,423.39,2026-01-10 03:00:00,64.03,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,108.03,2026-01-03 10:00:00,63.88,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,145.32,2026-01-10 02:45:00,63.28,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,93.48,2026-01-03 06:30:00,63.23,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,353.75,2026-01-11 07:15:00,63.23,MEDIUM,False,Rapid succession submission (<15 min gap); Logged on a weekend
+EMP_001,505.49,2026-01-05 02:30:00,61.98,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,281.7,2026-01-01 07:45:00,61.68,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,492.18,2026-01-11 09:30:00,61.53,MEDIUM,False,Amount significantly higher than employee average; Logged on a weekend
+EMP_009,539.78,2026-01-11 04:30:00,61.5,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,122.5,2026-01-01 08:45:00,60.66,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_006,41.67,2026-01-09 05:00:00,60.32,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,47.29,2026-01-01 03:15:00,60.2,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,42.74,2026-01-01 13:30:00,60.0,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_013,32.81,2026-01-01 17:00:00,59.92,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_015,463.86,2026-01-08 00:15:00,59.9,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,474.03,2026-01-08 04:45:00,59.48,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours
+EMP_014,451.61,2026-01-05 23:45:00,59.4,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours
+EMP_001,21.64,2026-01-04 19:45:00,58.22,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_017,156.3,2026-01-03 23:15:00,58.19,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,443.18,2026-01-04 23:45:00,58.13,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,439.26,2026-01-10 21:15:00,58.1,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,326.88,2026-01-04 11:15:00,57.85,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,223.07,2026-01-02 20:00:00,57.48,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,615.39,2026-01-03 16:00:00,56.54,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,276.57,2026-01-07 12:15:00,55.44,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,412.33,2026-01-04 02:30:00,55.23,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,17.35,2026-01-11 01:45:00,55.08,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_018,371.76,2026-01-03 13:45:00,54.81,MEDIUM,False,Amount significantly higher than employee average; Logged on a weekend
+EMP_015,230.42,2026-01-08 15:15:00,54.69,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,259.65,2026-01-10 19:15:00,54.1,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,120.64,2026-01-07 07:15:00,53.94,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,40.77,2026-01-05 09:45:00,53.45,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,106.14,2026-01-02 23:45:00,53.4,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap)
+EMP_017,15.43,2026-01-11 03:15:00,53.35,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_011,21.09,2026-01-08 04:30:00,53.3,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,85.79,2026-01-02 11:45:00,53.3,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,561.54,2026-01-05 14:15:00,53.23,MEDIUM,False,Amount significantly higher than employee average
+EMP_004,601.19,2026-01-02 21:15:00,53.11,MEDIUM,False,Amount significantly higher than employee average
+EMP_008,145.86,2026-01-09 01:15:00,52.93,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,304.45,2026-01-10 19:45:00,52.89,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,479.29,2026-01-10 20:15:00,52.88,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,174.63,2026-01-10 00:45:00,52.48,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,574.06,2026-01-08 08:45:00,52.45,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,37.14,2026-01-01 02:00:00,52.07,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap)
+EMP_011,105.28,2026-01-06 04:30:00,51.89,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap)
+EMP_009,11.43,2026-01-03 09:00:00,51.51,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,120.5,2026-01-02 19:15:00,51.14,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,100.69,2026-01-05 08:00:00,51.12,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,133.09,2026-01-04 14:15:00,50.56,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,122.14,2026-01-08 12:30:00,50.46,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,123.34,2026-01-03 04:15:00,50.21,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_010,229.49,2026-01-07 12:45:00,50.04,MEDIUM,False,Rapid succession submission (<15 min gap)
+EMP_011,437.91,2026-01-11 04:45:00,50.03,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_013,552.33,2026-01-07 06:30:00,50.02,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,497.85,2026-01-04 10:45:00,49.65,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,75.6,2026-01-10 11:45:00,49.62,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,65.65,2026-01-01 05:45:00,49.55,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,578.91,2026-01-05 20:15:00,49.45,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,134.67,2026-01-10 05:15:00,49.06,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,12.68,2026-01-10 04:15:00,49.01,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_012,132.23,2026-02-11 12:02:00,48.91,MEDIUM,False,Rapid succession submission (<15 min gap)
+EMP_016,361.08,2026-01-03 16:45:00,48.85,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,113.21,2026-01-02 05:00:00,48.67,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,133.38,2026-01-03 03:30:00,48.5,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,48.78,2026-01-11 07:45:00,48.42,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,524.03,2026-01-05 09:30:00,48.41,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,148.4,2026-01-10 04:30:00,48.28,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,761.68,2026-01-07 16:15:00,47.63,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,21.92,2026-01-10 21:45:00,47.62,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,49.22,2026-01-05 01:45:00,47.43,MEDIUM,False,Submitted outside standard business hours; Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,486.12,2026-01-02 19:45:00,47.13,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,140.46,2026-01-08 07:45:00,47.09,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,272.48,2026-01-03 20:00:00,47.08,MEDIUM,False,Logged on a weekend
+EMP_003,483.11,2026-01-09 21:30:00,46.94,MEDIUM,False,Amount significantly higher than employee average
+EMP_002,703.02,2026-01-04 20:15:00,46.94,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,507.9,2026-01-10 13:00:00,46.75,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,165.81,2026-01-10 17:15:00,46.7,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_013,25.02,2026-01-06 18:15:00,46.66,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,331.72,2026-01-04 05:45:00,46.56,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,125.96,2026-01-03 05:30:00,46.34,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_006,47.42,2026-01-10 09:45:00,46.32,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,333.38,2026-01-03 16:15:00,46.32,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,107.59,2026-01-11 09:45:00,46.31,MEDIUM,False,Logged on a weekend
+EMP_015,146.42,2026-01-03 21:15:00,46.1,MEDIUM,False,Logged on a weekend
+EMP_006,144.81,2026-01-06 17:30:00,46.03,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,99.71,2026-01-10 23:45:00,45.93,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_013,50.34,2026-01-06 14:30:00,45.46,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,487.77,2026-01-02 09:00:00,45.36,MEDIUM,False,Amount significantly higher than employee average
+EMP_004,203.26,2026-01-05 15:45:00,45.3,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,455.17,2026-01-06 23:00:00,44.9,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,87.75,2026-01-03 04:45:00,44.7,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,503.11,2026-01-01 16:30:00,44.57,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,43.63,2026-01-05 20:30:00,44.17,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,305.6,2026-02-11 12:04:00,44.14,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_001,457.29,2026-01-02 11:30:00,44.06,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,558.4,2026-01-09 10:30:00,43.91,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,73.51,2026-01-01 21:30:00,43.74,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,501.01,2026-01-04 04:30:00,43.67,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_017,244.11,2026-01-02 18:45:00,43.63,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,149.78,2026-01-06 12:00:00,43.57,MEDIUM,False,Rapid succession submission (<15 min gap)
+EMP_001,296.78,2026-01-04 01:45:00,43.47,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,83.25,2026-01-10 23:30:00,43.22,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,438.1,2026-01-09 16:15:00,43.1,MEDIUM,False,Amount significantly higher than employee average
+EMP_005,475.95,2026-01-02 14:00:00,42.98,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,365.49,2026-01-04 06:15:00,42.77,MEDIUM,False,Logged on a weekend
+EMP_001,239.76,2026-01-11 05:00:00,42.5,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_014,409.08,2026-01-04 09:30:00,42.46,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,48.61,2026-01-11 00:00:00,42.28,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_010,124.88,2026-02-11 12:06:00,42.27,MEDIUM,False,Behavioral profile shows minor statistical anomaly
+EMP_001,66.28,2026-01-03 00:00:00,42.24,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,54.29,2026-01-08 15:45:00,42.23,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,254.43,2026-01-03 05:15:00,42.0,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_018,17.5,2026-01-04 04:00:00,41.95,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_003,351.59,2026-01-03 22:45:00,41.87,MEDIUM,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,271.62,2026-01-10 00:30:00,41.75,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,42.09,2026-01-03 00:45:00,41.67,MEDIUM,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,80.66,2026-01-07 19:30:00,41.62,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,198.25,2026-01-05 06:00:00,40.99,MEDIUM,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,443.46,2026-01-01 16:45:00,40.95,MEDIUM,False,Amount significantly higher than employee average
+EMP_017,451.46,2026-01-04 18:15:00,40.8,MEDIUM,False,Logged on a weekend
+EMP_006,347.96,2026-01-04 00:00:00,40.45,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_015,340.26,2026-01-11 00:15:00,40.16,MEDIUM,False,Submitted outside standard business hours; Logged on a weekend
+EMP_014,434.22,2026-01-07 14:00:00,40.13,MEDIUM,False,Amount significantly higher than employee average
+EMP_004,589.0,2026-01-01 12:00:00,40.09,MEDIUM,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,378.42,2026-01-08 00:45:00,40.02,MEDIUM,False,Amount significantly higher than employee average; Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,560.64,2026-01-01 22:45:00,39.73,LOW,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,323.25,2026-01-10 03:15:00,39.63,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,143.41,2026-01-03 13:15:00,39.52,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,144.77,2026-01-09 04:00:00,39.47,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,176.12,2026-01-09 03:00:00,39.09,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,370.4,2026-01-05 03:15:00,39.07,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,102.34,2026-01-02 16:15:00,39.06,LOW,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,209.32,2026-01-04 02:45:00,39.02,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_016,276.36,2026-01-03 18:30:00,38.97,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,203.28,2026-01-10 10:45:00,38.73,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,143.21,2026-01-03 15:45:00,38.73,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,16.92,2026-01-03 14:00:00,38.66,LOW,False,Logged on a weekend
+EMP_002,183.74,2026-01-07 05:45:00,38.62,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,86.6,2026-01-08 08:30:00,38.58,LOW,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,54.24,2026-01-11 08:45:00,38.57,LOW,False,Logged on a weekend
+EMP_001,69.86,2026-01-04 02:15:00,38.35,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_013,74.29,2026-01-07 15:00:00,38.27,LOW,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,505.94,2026-01-07 10:30:00,38.23,LOW,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,172.55,2026-01-03 05:45:00,37.95,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,28.37,2026-01-03 01:00:00,37.74,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_007,420.47,2026-01-05 23:30:00,37.71,LOW,False,Submitted outside standard business hours
+EMP_009,115.82,2026-01-10 01:30:00,37.65,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_002,510.82,2026-01-05 03:45:00,37.63,LOW,False,Submitted outside standard business hours
+EMP_002,46.56,2026-01-03 20:45:00,37.37,LOW,False,Logged on a weekend
+EMP_003,18.47,2026-01-03 02:00:00,37.2,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,331.15,2026-01-11 00:45:00,37.11,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_001,121.68,2026-01-03 21:30:00,37.11,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,96.22,2026-01-02 10:30:00,37.1,LOW,False,Rapid succession submission (<15 min gap); Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,83.28,2026-01-10 05:00:00,37.04,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_015,409.57,2026-01-10 22:15:00,37.03,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,120.15,2026-01-03 06:15:00,36.69,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,18.06,2026-01-09 05:15:00,36.52,LOW,False,Submitted outside standard business hours
+EMP_018,141.8,2026-01-07 04:45:00,36.51,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,215.69,2026-01-11 02:15:00,36.5,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_007,375.85,2026-01-01 01:15:00,36.39,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,118.62,2026-01-03 22:00:00,36.06,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,305.05,2026-01-04 00:15:00,35.76,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,369.04,2026-01-04 12:15:00,35.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,10.04,2026-01-03 07:45:00,35.61,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,241.46,2026-01-09 17:00:00,35.22,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_002,51.85,2026-01-10 18:45:00,35.21,LOW,False,Logged on a weekend
+EMP_007,334.42,2026-01-03 04:00:00,34.91,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_001,165.37,2026-01-02 02:00:00,34.85,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,467.52,2026-01-05 15:15:00,34.78,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_002,347.33,2026-01-04 05:00:00,34.76,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,119.55,2026-01-03 21:00:00,34.69,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,472.15,2026-01-02 12:00:00,34.57,LOW,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,105.53,2026-01-02 00:00:00,34.36,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,12.22,2026-01-07 22:30:00,34.15,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,243.25,2026-01-04 17:30:00,34.14,LOW,False,Logged on a weekend
+EMP_011,137.44,2026-01-03 05:00:00,34.13,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_005,309.5,2026-01-07 01:30:00,34.1,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,464.08,2026-01-05 21:45:00,34.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,399.9,2026-01-07 18:00:00,33.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,20.68,2026-01-11 06:15:00,33.72,LOW,False,Logged on a weekend
+EMP_008,39.36,2026-01-10 08:15:00,33.7,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,101.56,2026-01-09 04:45:00,33.62,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,140.4,2026-01-03 10:15:00,33.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,116.57,2026-01-11 03:30:00,33.52,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,285.31,2026-01-06 08:30:00,33.51,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_008,59.14,2026-01-10 22:00:00,33.45,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,26.7,2026-01-11 03:00:00,33.32,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_020,167.55,2026-01-03 03:00:00,33.3,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,10.76,2026-01-04 03:30:00,33.27,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,26.17,2026-01-05 00:00:00,33.21,LOW,False,Submitted outside standard business hours
+EMP_012,271.56,2026-01-10 23:00:00,32.92,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_018,266.15,2026-01-08 23:30:00,32.89,LOW,False,Submitted outside standard business hours
+EMP_019,10.15,2026-01-04 23:00:00,32.87,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,18.95,2026-01-04 19:30:00,32.82,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,83.55,2026-01-11 03:45:00,32.69,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_019,330.1,2026-01-04 10:30:00,32.45,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,29.52,2026-01-10 02:30:00,32.41,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,15.75,2026-01-03 09:45:00,32.24,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,86.2,2026-01-03 10:45:00,32.23,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,10.05,2026-01-10 04:00:00,32.21,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,89.69,2026-01-11 05:30:00,32.13,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_016,131.72,2026-01-02 23:30:00,32.05,LOW,False,Submitted outside standard business hours
+EMP_013,296.02,2026-01-10 03:45:00,32.01,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,129.65,2026-01-11 05:45:00,31.96,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_007,165.15,2026-01-03 02:45:00,31.86,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_015,363.91,2026-01-09 00:15:00,31.77,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,145.36,2026-01-04 21:15:00,31.59,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,386.4,2026-01-07 13:30:00,31.59,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,26.76,2026-01-11 01:00:00,31.58,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_001,127.25,2026-01-08 00:00:00,31.52,LOW,False,Submitted outside standard business hours
+EMP_005,414.86,2026-01-09 22:00:00,31.42,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,15.81,2026-01-11 02:00:00,31.4,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_002,84.55,2026-01-03 14:30:00,31.36,LOW,False,Logged on a weekend
+EMP_001,269.39,2026-01-02 03:30:00,31.29,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,35.96,2026-01-04 23:15:00,31.25,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,356.25,2026-01-02 02:45:00,31.24,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,431.56,2026-01-07 08:45:00,31.23,LOW,False,Amount significantly higher than employee average; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,59.57,2026-01-04 03:00:00,31.17,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,220.52,2026-01-10 06:15:00,31.15,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,27.39,2026-01-03 14:15:00,31.11,LOW,False,Logged on a weekend
+EMP_015,148.66,2026-01-08 23:45:00,30.97,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,435.14,2026-01-05 18:15:00,30.86,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,15.32,2026-01-03 23:45:00,30.79,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_004,499.21,2026-01-09 07:15:00,30.78,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,49.32,2026-01-03 18:15:00,30.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,164.32,2026-01-07 23:15:00,30.71,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,223.66,2026-01-07 23:30:00,30.43,LOW,False,Submitted outside standard business hours
+EMP_002,102.97,2026-01-03 07:15:00,30.4,LOW,False,Logged on a weekend
+EMP_008,108.4,2026-01-03 03:45:00,30.26,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,102.15,2026-02-11 12:00:00,30.23,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_002,16.78,2026-01-02 22:45:00,30.12,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,214.55,2026-01-06 04:45:00,30.11,LOW,False,Submitted outside standard business hours
+EMP_005,55.21,2026-01-03 21:45:00,30.09,LOW,False,Logged on a weekend
+EMP_002,36.58,2026-01-07 09:15:00,30.0,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,98.69,2026-01-07 01:15:00,29.89,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,94.41,2026-01-10 07:00:00,29.71,LOW,False,Logged on a weekend
+EMP_001,49.37,2026-01-09 04:30:00,29.5,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,22.5,2026-01-10 02:00:00,29.27,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,84.43,2026-01-04 00:45:00,29.26,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,104.82,2026-01-04 23:30:00,29.22,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,49.7,2026-01-10 01:45:00,29.19,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,364.5,2026-01-08 15:00:00,29.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,40.57,2026-01-02 09:15:00,28.81,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,91.34,2026-01-10 13:45:00,28.78,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,29.68,2026-01-07 02:45:00,28.69,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,42.94,2026-01-08 05:30:00,28.62,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,284.69,2026-01-01 12:15:00,28.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,19.52,2026-01-04 05:30:00,28.43,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,82.67,2026-01-03 08:15:00,28.42,LOW,False,Logged on a weekend
+EMP_002,140.89,2026-01-10 14:15:00,28.36,LOW,False,Logged on a weekend
+EMP_002,103.96,2026-01-04 11:00:00,28.27,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,163.32,2026-01-09 03:30:00,28.21,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,54.9,2026-01-04 13:15:00,28.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,121.83,2026-01-10 12:00:00,28.15,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_017,298.84,2026-01-05 00:15:00,28.14,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,58.81,2026-01-10 03:30:00,28.12,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,15.41,2026-01-04 02:00:00,28.12,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,16.81,2026-01-04 01:30:00,27.98,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,263.15,2026-01-02 04:00:00,27.96,LOW,False,Submitted outside standard business hours
+EMP_002,232.17,2026-01-09 00:30:00,27.93,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,38.07,2026-01-10 07:15:00,27.9,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,277.45,2026-01-09 02:45:00,27.79,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,198.55,2026-01-08 03:15:00,27.73,LOW,False,Submitted outside standard business hours
+EMP_014,186.27,2026-01-02 03:00:00,27.69,LOW,False,Submitted outside standard business hours
+EMP_012,30.41,2026-01-10 18:15:00,27.66,LOW,False,Logged on a weekend
+EMP_010,291.76,2026-01-08 00:30:00,27.53,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,198.58,2026-01-03 13:00:00,27.49,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,323.93,2026-01-03 06:45:00,27.48,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,304.29,2026-01-08 09:45:00,27.47,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,102.97,2026-01-11 04:00:00,27.45,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_018,269.89,2026-01-08 09:00:00,27.43,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,11.37,2026-01-04 15:00:00,27.41,LOW,False,Logged on a weekend
+EMP_020,175.1,2026-01-11 08:15:00,27.41,LOW,False,Logged on a weekend
+EMP_015,152.11,2026-01-06 00:30:00,27.4,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,40.15,2026-01-02 00:15:00,27.39,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,350.54,2026-01-08 04:15:00,27.28,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,238.97,2026-01-10 07:45:00,27.27,LOW,False,Logged on a weekend
+EMP_009,101.72,2026-01-04 00:30:00,27.13,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_005,357.47,2026-01-07 18:30:00,27.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,161.16,2026-01-09 07:30:00,27.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,188.47,2026-01-04 03:45:00,27.02,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,221.98,2026-01-04 13:00:00,26.97,LOW,False,Logged on a weekend
+EMP_002,36.3,2026-01-05 11:45:00,26.95,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,234.9,2026-01-10 02:15:00,26.91,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_008,253.02,2026-01-11 02:45:00,26.9,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_005,172.18,2026-01-06 01:00:00,26.89,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,75.74,2026-01-11 05:15:00,26.81,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_005,31.55,2026-01-10 13:30:00,26.75,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,374.28,2026-01-05 09:15:00,26.74,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,309.81,2026-01-04 07:15:00,26.69,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,524.9,2026-01-02 17:15:00,26.66,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,180.98,2026-01-09 04:15:00,26.45,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,40.73,2026-01-08 11:00:00,26.43,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_018,208.59,2026-01-04 07:30:00,26.42,LOW,False,Logged on a weekend
+EMP_001,115.43,2026-01-06 10:30:00,26.31,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_001,62.94,2026-01-10 06:45:00,26.15,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,24.09,2026-01-08 08:00:00,26.09,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_006,10.19,2026-01-09 09:00:00,25.82,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,42.19,2026-01-04 13:30:00,25.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,124.09,2026-01-04 04:15:00,25.77,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,45.69,2026-01-10 05:45:00,25.76,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,169.5,2026-01-08 05:00:00,25.72,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,313.88,2026-01-05 05:45:00,25.64,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,313.8,2026-01-05 02:15:00,25.54,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,61.1,2026-01-07 17:00:00,25.53,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,120.86,2026-01-03 02:30:00,25.37,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,41.94,2026-01-10 05:30:00,25.33,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,172.54,2026-01-07 11:00:00,25.29,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,137.06,2026-01-04 06:30:00,25.25,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,216.67,2026-01-03 23:30:00,25.23,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_019,101.08,2026-01-03 02:15:00,25.21,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,215.01,2026-01-03 01:45:00,25.15,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,17.21,2026-01-03 19:00:00,25.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,154.94,2026-01-10 06:30:00,24.94,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,85.97,2026-01-07 05:15:00,24.93,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,14.77,2026-01-05 02:45:00,24.88,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,27.39,2026-01-04 04:45:00,24.87,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,18.12,2026-01-03 09:15:00,24.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,68.62,2026-01-10 15:15:00,24.63,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,192.58,2026-01-01 19:30:00,24.59,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,53.68,2026-01-04 03:15:00,24.59,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,52.87,2026-01-10 13:15:00,24.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,352.8,2026-01-09 23:30:00,24.44,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,87.02,2026-01-03 17:45:00,24.4,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,29.26,2026-01-03 00:15:00,24.33,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,70.97,2026-01-04 09:00:00,24.28,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,167.69,2026-01-07 17:30:00,24.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,172.76,2026-01-04 06:45:00,24.17,LOW,False,Logged on a weekend
+EMP_019,10.77,2026-01-04 11:30:00,24.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,107.13,2026-01-04 01:15:00,24.04,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,97.25,2026-01-03 04:30:00,24.02,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,58.71,2026-01-03 13:30:00,24.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,231.09,2026-01-04 18:45:00,24.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,269.23,2026-01-08 03:45:00,23.84,LOW,False,Submitted outside standard business hours
+EMP_018,44.17,2026-01-05 07:15:00,23.83,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_008,99.84,2026-01-11 00:30:00,23.8,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_019,292.6,2026-01-10 10:30:00,23.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,97.85,2026-01-11 01:30:00,23.74,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_005,268.49,2026-01-04 22:00:00,23.73,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,107.9,2026-01-09 22:30:00,23.7,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_015,318.16,2026-01-06 05:00:00,23.69,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,154.37,2026-01-10 08:45:00,23.59,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,165.47,2026-01-09 01:00:00,23.5,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,69.71,2026-01-07 20:15:00,23.49,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,313.93,2026-01-04 08:00:00,23.49,LOW,False,Logged on a weekend
+EMP_001,68.01,2026-01-05 04:45:00,23.47,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,169.23,2026-01-10 11:30:00,23.44,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,77.59,2026-01-01 22:00:00,23.41,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_009,194.94,2026-01-04 19:00:00,23.4,LOW,False,Logged on a weekend
+EMP_003,67.31,2026-01-10 00:00:00,23.37,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_011,107.58,2026-01-10 01:15:00,23.31,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_001,149.31,2026-01-07 15:30:00,23.2,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,10.17,2026-01-04 12:30:00,23.19,LOW,False,Logged on a weekend
+EMP_020,92.17,2026-01-03 01:15:00,23.15,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,145.04,2026-01-08 13:45:00,23.03,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,167.6,2026-01-06 03:30:00,22.94,LOW,False,Submitted outside standard business hours
+EMP_013,310.0,2026-01-10 18:30:00,22.88,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,72.93,2026-01-07 07:30:00,22.81,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,87.26,2026-01-02 01:30:00,22.8,LOW,False,Submitted outside standard business hours
+EMP_004,247.96,2026-01-03 01:30:00,22.79,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,84.73,2026-01-10 20:00:00,22.79,LOW,False,Logged on a weekend
+EMP_001,232.97,2026-01-01 21:45:00,22.7,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,337.67,2026-01-01 14:45:00,22.65,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_018,128.35,2026-01-07 22:00:00,22.63,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,384.7,2026-01-08 11:15:00,22.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,29.93,2026-01-03 14:45:00,22.55,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,203.33,2026-01-05 05:00:00,22.39,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,57.82,2026-01-04 01:00:00,22.34,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_018,68.54,2026-01-07 06:15:00,22.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,85.92,2026-01-09 18:15:00,22.32,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,145.6,2026-01-01 14:00:00,22.28,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,176.02,2026-01-06 22:00:00,22.27,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,168.21,2026-01-10 19:00:00,22.25,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,297.42,2026-01-03 12:45:00,22.25,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,147.74,2026-01-03 16:30:00,22.18,LOW,False,Logged on a weekend
+EMP_001,208.02,2026-01-07 09:00:00,22.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,216.08,2026-01-08 03:00:00,22.08,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,98.16,2026-01-07 22:15:00,22.08,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,273.03,2026-01-07 14:15:00,22.06,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,150.66,2026-01-09 13:00:00,22.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,71.5,2026-01-03 11:15:00,22.05,LOW,False,Logged on a weekend
+EMP_002,63.94,2026-01-08 16:00:00,22.0,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,154.02,2026-01-09 02:15:00,21.99,LOW,False,Submitted outside standard business hours
+EMP_006,81.93,2026-01-09 14:45:00,21.96,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,149.85,2026-01-09 23:00:00,21.88,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,32.63,2026-01-02 05:45:00,21.69,LOW,False,Submitted outside standard business hours
+EMP_018,234.42,2026-01-06 14:45:00,21.68,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,236.95,2026-01-01 23:00:00,21.67,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,149.53,2026-01-07 00:00:00,21.56,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,25.37,2026-01-06 17:00:00,21.5,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,92.82,2026-01-11 06:30:00,21.48,LOW,False,Logged on a weekend
+EMP_013,112.61,2026-01-10 23:15:00,21.44,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,52.21,2026-01-04 08:15:00,21.44,LOW,False,Logged on a weekend
+EMP_012,152.38,2026-01-05 23:00:00,21.39,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,31.28,2026-01-02 02:30:00,21.36,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_001,319.93,2026-01-09 16:30:00,21.36,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,77.63,2026-01-09 05:45:00,21.36,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,158.85,2026-01-10 15:45:00,21.35,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,234.29,2026-01-05 18:00:00,21.33,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_011,12.7,2026-01-05 08:30:00,21.32,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,144.94,2026-01-06 03:15:00,21.31,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,96.6,2026-01-06 02:45:00,21.3,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,27.3,2026-01-08 01:15:00,21.29,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,15.22,2026-01-07 02:15:00,21.28,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,24.63,2026-01-09 12:00:00,21.24,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,135.13,2026-01-01 23:30:00,21.24,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,12.39,2026-01-08 23:00:00,21.04,LOW,False,Submitted outside standard business hours
+EMP_005,123.15,2026-01-02 03:45:00,21.03,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,117.76,2026-01-02 00:45:00,20.97,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,159.05,2026-01-03 20:30:00,20.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,408.05,2026-01-08 07:15:00,20.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,206.97,2026-01-03 00:30:00,20.72,LOW,False,Submitted outside standard business hours; Logged on a weekend
+EMP_005,28.47,2026-01-04 14:30:00,20.69,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,302.11,2026-01-05 03:30:00,20.61,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,154.72,2026-01-10 15:00:00,20.59,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,35.47,2026-01-07 10:00:00,20.58,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,276.27,2026-01-11 06:00:00,20.57,LOW,False,Logged on a weekend
+EMP_011,20.77,2026-01-11 09:15:00,20.52,LOW,False,Logged on a weekend
+EMP_020,380.67,2026-01-02 10:45:00,20.43,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,201.05,2026-01-02 05:15:00,20.38,LOW,False,Submitted outside standard business hours
+EMP_019,23.91,2026-01-03 09:30:00,20.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,10.5,2026-01-03 12:00:00,20.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,82.32,2026-01-09 10:00:00,20.32,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,44.14,2026-01-06 08:15:00,20.26,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,103.37,2026-01-03 23:00:00,20.19,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,159.22,2026-01-07 20:30:00,20.19,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_020,49.43,2026-01-07 03:00:00,20.15,LOW,False,Submitted outside standard business hours
+EMP_017,262.11,2026-01-08 01:00:00,20.08,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,360.52,2026-01-02 21:30:00,20.08,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,24.23,2026-01-07 16:45:00,20.05,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,53.77,2026-01-10 22:30:00,20.0,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,36.47,2026-01-09 16:45:00,19.92,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,78.05,2026-01-03 03:15:00,19.83,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,118.44,2026-01-11 07:00:00,19.81,LOW,False,Logged on a weekend
+EMP_005,113.77,2026-01-10 17:30:00,19.65,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,237.92,2026-01-10 22:45:00,19.65,LOW,False,Logged on a weekend
+EMP_007,160.44,2026-01-10 09:00:00,19.63,LOW,False,Logged on a weekend
+EMP_010,309.94,2026-01-07 12:30:00,19.62,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_005,41.55,2026-01-10 14:45:00,19.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_003,351.58,2026-01-01 11:15:00,19.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,193.31,2026-01-07 01:00:00,19.6,LOW,False,Submitted outside standard business hours
+EMP_012,284.84,2026-01-05 01:15:00,19.57,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,94.91,2026-01-04 16:15:00,19.54,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,286.33,2026-01-02 13:30:00,19.53,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,23.91,2026-01-07 04:15:00,19.5,LOW,False,Submitted outside standard business hours
+EMP_006,47.97,2026-01-09 21:15:00,19.47,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,266.12,2026-01-04 15:15:00,19.37,LOW,False,Logged on a weekend
+EMP_020,55.31,2026-01-11 09:00:00,19.33,LOW,False,Logged on a weekend
+EMP_001,35.2,2026-01-02 14:15:00,19.23,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,20.08,2026-01-03 17:30:00,19.22,LOW,False,Logged on a weekend
+EMP_005,107.88,2026-01-06 03:45:00,19.06,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,177.01,2026-01-09 11:45:00,19.04,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,50.58,2026-01-06 20:30:00,19.04,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,267.18,2026-01-04 11:45:00,18.97,LOW,False,Logged on a weekend
+EMP_018,124.68,2026-01-01 09:00:00,18.95,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,65.98,2026-01-01 02:30:00,18.95,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,306.07,2026-01-01 22:15:00,18.94,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,169.95,2026-01-10 10:15:00,18.93,LOW,False,Logged on a weekend
+EMP_001,201.71,2026-01-09 19:30:00,18.89,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,203.55,2026-01-06 03:00:00,18.87,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,302.77,2026-01-06 19:15:00,18.86,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,238.34,2026-01-07 00:45:00,18.84,LOW,False,Submitted outside standard business hours
+EMP_012,29.23,2026-01-03 18:45:00,18.81,LOW,False,Logged on a weekend
+EMP_018,88.23,2026-01-01 17:15:00,18.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,153.47,2026-01-06 04:00:00,18.71,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,40.77,2026-01-03 08:00:00,18.66,LOW,False,Logged on a weekend
+EMP_020,87.83,2026-01-10 11:15:00,18.66,LOW,False,Logged on a weekend
+EMP_020,157.25,2026-01-06 00:00:00,18.63,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,170.5,2026-01-05 14:45:00,18.63,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_011,69.85,2026-01-06 04:15:00,18.6,LOW,False,Submitted outside standard business hours
+EMP_015,12.79,2026-01-04 16:00:00,18.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,63.15,2026-01-05 01:00:00,18.47,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,21.63,2026-01-10 07:30:00,18.46,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_018,106.05,2026-01-08 18:45:00,18.46,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,17.96,2026-01-07 03:15:00,18.36,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,297.0,2026-01-04 20:00:00,18.24,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,122.31,2026-01-05 00:30:00,18.22,LOW,False,Submitted outside standard business hours
+EMP_014,190.09,2026-01-04 10:00:00,18.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,139.28,2026-01-01 01:45:00,18.16,LOW,False,Submitted outside standard business hours
+EMP_008,207.67,2026-01-03 11:45:00,18.15,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_013,120.49,2026-01-04 07:45:00,18.09,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_007,323.66,2026-01-01 19:00:00,18.08,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,130.78,2026-01-06 01:15:00,18.06,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,207.11,2026-01-05 03:00:00,18.06,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,127.72,2026-01-04 07:00:00,18.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,109.47,2026-01-02 00:30:00,17.95,LOW,False,Submitted outside standard business hours
+EMP_001,35.02,2026-01-05 07:45:00,17.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,138.2,2026-01-09 17:15:00,17.84,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_005,160.4,2026-01-02 07:00:00,17.81,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_018,69.16,2026-01-05 12:15:00,17.76,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,79.74,2026-01-04 22:15:00,17.76,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,24.43,2026-01-03 11:00:00,17.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,311.98,2026-01-07 16:00:00,17.71,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,152.82,2026-01-10 19:30:00,17.69,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_001,117.81,2026-01-06 16:00:00,17.67,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_020,272.24,2026-01-05 00:45:00,17.64,LOW,False,Submitted outside standard business hours
+EMP_001,54.0,2026-01-07 07:00:00,17.58,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,26.16,2026-01-10 20:45:00,17.56,LOW,False,Logged on a weekend
+EMP_019,37.3,2026-01-04 18:30:00,17.52,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,22.93,2026-01-11 06:45:00,17.49,LOW,False,Logged on a weekend
+EMP_003,38.63,2026-01-10 10:00:00,17.41,LOW,False,Logged on a weekend
+EMP_005,140.17,2026-01-07 06:45:00,17.38,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,129.28,2026-01-07 21:30:00,17.38,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,245.6,2026-01-10 11:00:00,17.27,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,372.24,2026-01-01 19:45:00,17.22,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,367.6,2026-01-05 15:30:00,17.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,103.71,2026-01-05 13:30:00,17.15,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_008,285.0,2026-01-04 16:30:00,17.13,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_002,113.08,2026-01-01 09:30:00,17.09,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,80.14,2026-01-08 12:15:00,17.02,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,72.71,2026-01-09 14:30:00,16.97,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_008,154.1,2026-01-08 06:30:00,16.95,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_001,48.69,2026-01-09 14:15:00,16.94,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,231.01,2026-01-04 18:00:00,16.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,39.77,2026-01-07 04:00:00,16.75,LOW,False,Submitted outside standard business hours
+EMP_006,109.42,2026-01-10 06:00:00,16.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,143.11,2026-01-02 23:00:00,16.57,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,37.67,2026-01-07 23:00:00,16.5,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,118.88,2026-01-04 06:00:00,16.48,LOW,False,Logged on a weekend
+EMP_009,11.57,2026-01-11 08:30:00,16.48,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_017,282.86,2026-01-03 18:00:00,16.43,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_013,94.54,2026-01-08 04:00:00,16.42,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,129.58,2026-01-08 02:45:00,16.4,LOW,False,Submitted outside standard business hours
+EMP_004,20.02,2026-01-10 16:15:00,16.35,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,17.95,2026-01-02 22:15:00,16.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,124.38,2026-01-07 00:30:00,16.23,LOW,False,Submitted outside standard business hours
+EMP_004,244.34,2026-01-10 14:00:00,16.22,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,163.25,2026-01-07 03:30:00,16.22,LOW,False,Submitted outside standard business hours
+EMP_006,279.64,2026-01-10 15:30:00,16.14,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,81.55,2026-01-06 23:45:00,16.13,LOW,False,Submitted outside standard business hours
+EMP_015,168.39,2026-01-06 18:30:00,16.09,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,122.18,2026-01-08 01:45:00,16.08,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,178.27,2026-01-09 19:00:00,16.06,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,132.51,2026-01-07 01:45:00,16.03,LOW,False,Submitted outside standard business hours
+EMP_003,213.04,2026-01-02 01:00:00,16.0,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,184.81,2026-01-07 05:00:00,15.89,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,48.99,2026-01-10 09:15:00,15.88,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,251.99,2026-01-03 20:15:00,15.88,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,16.24,2026-01-06 02:15:00,15.85,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,31.36,2026-01-07 08:15:00,15.83,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,258.74,2026-01-08 17:00:00,15.82,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,171.25,2026-01-10 21:00:00,15.76,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_007,20.18,2026-01-04 21:45:00,15.74,LOW,False,Logged on a weekend
+EMP_015,50.23,2026-01-08 18:15:00,15.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,258.23,2026-01-10 21:30:00,15.71,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_007,113.4,2026-01-02 04:15:00,15.69,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,83.43,2026-01-10 12:45:00,15.67,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,349.82,2026-01-05 22:15:00,15.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,34.33,2026-01-08 17:30:00,15.59,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,120.48,2026-01-08 03:30:00,15.58,LOW,False,Submitted outside standard business hours
+EMP_012,146.5,2026-01-06 01:30:00,15.54,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,126.45,2026-01-07 02:00:00,15.53,LOW,False,Submitted outside standard business hours
+EMP_003,92.15,2026-01-02 02:15:00,15.51,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,185.95,2026-01-02 19:00:00,15.49,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,214.01,2026-01-03 17:15:00,15.48,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,295.75,2026-01-08 16:30:00,15.42,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,85.22,2026-01-08 02:30:00,15.33,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,23.18,2026-01-04 13:45:00,15.31,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_007,210.83,2026-01-03 06:00:00,15.28,LOW,False,Logged on a weekend
+EMP_015,63.41,2026-01-01 05:30:00,15.26,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,16.54,2026-01-10 16:30:00,15.25,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,16.7,2026-01-06 05:30:00,15.25,LOW,False,Submitted outside standard business hours
+EMP_005,51.99,2026-01-07 12:00:00,15.23,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,108.06,2026-01-07 05:30:00,15.2,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,20.87,2026-01-09 03:15:00,15.14,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,249.92,2026-01-03 15:15:00,15.13,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,181.37,2026-01-10 14:30:00,15.13,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,15.22,2026-01-01 21:00:00,15.11,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,36.87,2026-01-06 02:30:00,15.08,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,104.47,2026-01-03 12:15:00,15.05,LOW,False,Logged on a weekend
+EMP_008,312.6,2026-01-01 12:30:00,14.97,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,134.09,2026-01-05 06:15:00,14.96,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,26.9,2026-01-02 05:30:00,14.92,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,182.42,2026-01-02 03:15:00,14.85,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,49.25,2026-01-08 19:45:00,14.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,82.7,2026-01-03 19:15:00,14.74,LOW,False,Logged on a weekend
+EMP_008,176.34,2026-01-08 07:00:00,14.72,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_016,82.58,2026-01-04 21:30:00,14.68,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_013,215.47,2026-01-05 05:15:00,14.68,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,13.47,2026-01-09 20:45:00,14.68,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,15.61,2026-01-03 19:30:00,14.67,LOW,False,Logged on a weekend
+EMP_017,91.07,2026-01-03 07:00:00,14.63,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,23.6,2026-01-02 19:30:00,14.62,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,62.83,2026-01-07 19:45:00,14.61,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,14.48,2026-01-06 11:30:00,14.56,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,239.47,2026-01-06 00:15:00,14.54,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,157.03,2026-01-01 20:00:00,14.46,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,292.71,2026-01-01 18:30:00,14.45,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_015,314.77,2026-01-07 19:15:00,14.44,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,44.64,2026-01-08 20:00:00,14.42,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,224.13,2026-01-05 04:00:00,14.38,LOW,False,Submitted outside standard business hours
+EMP_010,107.14,2026-01-08 02:15:00,14.37,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,12.63,2026-01-07 06:00:00,14.37,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,12.78,2026-01-05 17:00:00,14.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,136.4,2026-01-01 14:30:00,14.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,131.85,2026-01-04 12:45:00,14.31,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,103.01,2026-01-05 10:00:00,14.28,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_016,39.68,2026-01-04 17:00:00,14.23,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,271.54,2026-01-01 20:30:00,14.22,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,52.37,2026-01-08 02:00:00,14.21,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,223.47,2026-01-02 20:30:00,14.2,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,43.54,2026-01-05 05:30:00,14.18,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,34.2,2026-01-08 01:30:00,14.18,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,179.08,2026-01-04 20:30:00,14.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,238.82,2026-01-11 07:30:00,14.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,62.49,2026-01-08 10:30:00,14.09,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,331.24,2026-01-05 19:00:00,14.07,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,130.35,2026-01-01 13:00:00,14.04,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,266.21,2026-01-04 22:30:00,14.02,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_013,166.44,2026-01-04 21:00:00,13.97,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,20.43,2026-01-02 04:30:00,13.94,LOW,False,Submitted outside standard business hours
+EMP_012,76.18,2026-01-07 00:15:00,13.91,LOW,False,Submitted outside standard business hours
+EMP_016,232.3,2026-01-05 01:30:00,13.85,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,38.63,2026-01-04 17:45:00,13.84,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_006,26.36,2026-01-07 04:30:00,13.84,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,53.66,2026-01-06 23:15:00,13.82,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,219.9,2026-01-01 10:45:00,13.79,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,23.94,2026-01-09 07:00:00,13.78,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,275.21,2026-01-09 23:45:00,13.77,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_002,220.88,2026-01-09 07:45:00,13.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,246.55,2026-01-08 10:45:00,13.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,249.03,2026-01-05 08:45:00,13.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,114.11,2026-01-07 23:45:00,13.54,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,33.66,2026-01-05 16:15:00,13.54,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,251.25,2026-01-08 10:00:00,13.54,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,32.93,2026-01-08 21:15:00,13.45,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,31.12,2026-01-05 02:00:00,13.42,LOW,False,Submitted outside standard business hours
+EMP_003,46.89,2026-01-02 01:45:00,13.42,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,220.18,2026-01-04 17:15:00,13.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,87.94,2026-01-02 04:45:00,13.37,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,98.58,2026-01-04 20:45:00,13.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,36.45,2026-01-06 05:45:00,13.29,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,28.2,2026-01-01 23:15:00,13.28,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,43.26,2026-01-10 16:00:00,13.27,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_014,56.26,2026-01-10 08:00:00,13.26,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_015,56.16,2026-01-09 00:45:00,13.25,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,239.76,2026-01-06 01:45:00,13.24,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,281.18,2026-01-06 14:15:00,13.22,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,111.35,2026-01-03 22:15:00,13.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_010,10.18,2026-01-05 10:15:00,13.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,56.39,2026-01-10 17:45:00,13.18,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,41.46,2026-01-04 10:15:00,13.18,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_007,80.91,2026-01-04 14:45:00,13.08,LOW,False,Logged on a weekend
+EMP_016,53.65,2026-01-04 22:45:00,13.02,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,107.85,2026-01-08 05:45:00,13.01,LOW,False,Submitted outside standard business hours
+EMP_016,76.77,2026-01-06 23:30:00,12.99,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,134.32,2026-01-07 21:00:00,12.93,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_016,109.36,2026-01-06 00:45:00,12.84,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,70.59,2026-01-06 06:30:00,12.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,227.35,2026-01-07 17:45:00,12.72,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,66.47,2026-01-09 22:45:00,12.7,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_008,62.86,2026-01-03 12:30:00,12.67,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_009,40.61,2026-01-08 10:15:00,12.61,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,97.59,2026-01-05 04:15:00,12.52,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,20.89,2026-01-03 08:45:00,12.41,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,34.24,2026-01-10 18:00:00,12.36,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_012,190.02,2026-01-02 01:15:00,12.34,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,276.37,2026-01-01 21:15:00,12.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,56.36,2026-01-10 17:00:00,12.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,26.78,2026-01-04 09:45:00,12.29,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,290.86,2026-01-06 09:30:00,12.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,22.92,2026-01-05 19:15:00,12.03,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,123.98,2026-01-08 07:30:00,12.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,57.55,2026-01-03 10:30:00,11.99,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,135.41,2026-01-09 17:30:00,11.98,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,143.84,2026-01-05 12:30:00,11.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,148.65,2026-01-01 16:00:00,11.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,120.88,2026-01-03 11:30:00,11.81,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,84.67,2026-01-04 16:45:00,11.81,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_005,32.85,2026-01-09 19:45:00,11.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,77.66,2026-01-01 20:45:00,11.76,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,201.96,2026-01-05 14:30:00,11.75,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,38.71,2026-01-06 08:45:00,11.75,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,207.62,2026-01-02 06:30:00,11.66,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,168.88,2026-01-06 06:15:00,11.62,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,12.65,2026-01-07 11:45:00,11.58,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,81.72,2026-01-08 05:15:00,11.57,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,332.75,2026-01-06 21:00:00,11.5,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,143.16,2026-01-06 19:45:00,11.48,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,315.18,2026-01-08 18:30:00,11.45,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,31.43,2026-01-10 20:30:00,11.42,LOW,False,Logged on a weekend
+EMP_016,255.46,2026-01-01 15:30:00,11.38,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,30.62,2026-01-04 15:30:00,11.36,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,66.08,2026-01-05 04:30:00,11.33,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,39.2,2026-01-10 12:30:00,11.33,LOW,False,Logged on a weekend
+EMP_019,157.11,2026-01-01 07:15:00,11.32,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,48.18,2026-01-07 03:45:00,11.3,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,13.03,2026-01-09 10:45:00,11.26,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,20.6,2026-01-02 10:00:00,11.26,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,158.64,2026-01-06 09:45:00,11.21,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_005,73.77,2026-01-09 15:00:00,11.19,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,32.48,2026-01-09 23:15:00,11.15,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,108.56,2026-01-10 12:15:00,11.12,LOW,False,Logged on a weekend
+EMP_019,28.01,2026-01-07 13:00:00,11.11,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,246.8,2026-01-08 14:00:00,11.05,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,36.03,2026-01-07 15:15:00,11.05,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,35.68,2026-01-04 08:30:00,11.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,73.14,2026-01-09 02:00:00,11.04,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,151.4,2026-01-02 11:15:00,11.03,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,10.35,2026-01-02 17:00:00,10.99,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,70.27,2026-01-06 21:30:00,10.99,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_009,63.25,2026-01-05 23:15:00,10.96,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,156.46,2026-01-02 14:30:00,10.94,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,48.34,2026-01-05 11:30:00,10.92,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,108.35,2026-01-06 02:00:00,10.84,LOW,False,Submitted outside standard business hours
+EMP_008,50.91,2026-01-04 09:15:00,10.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_017,86.92,2026-01-09 01:30:00,10.82,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,36.22,2026-01-04 08:45:00,10.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_019,153.8,2026-01-05 22:45:00,10.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,142.81,2026-01-01 08:00:00,10.79,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,172.98,2026-01-06 18:00:00,10.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,106.25,2026-01-04 19:15:00,10.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_020,79.64,2026-01-10 16:45:00,10.77,LOW,False,Logged on a weekend
+EMP_004,53.3,2026-01-02 06:45:00,10.7,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,57.44,2026-01-09 03:45:00,10.7,LOW,False,Submitted outside standard business hours
+EMP_005,66.66,2026-01-02 18:00:00,10.68,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_005,124.61,2026-01-05 18:45:00,10.61,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,20.75,2026-01-06 16:30:00,10.47,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,87.44,2026-01-06 07:30:00,10.46,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,162.4,2026-01-08 20:15:00,10.45,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,146.82,2026-01-05 10:30:00,10.42,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,72.58,2026-01-08 23:15:00,10.42,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,166.03,2026-01-08 14:15:00,10.41,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,49.72,2026-01-10 09:30:00,10.4,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_008,158.31,2026-01-09 18:45:00,10.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,11.36,2026-01-06 19:30:00,10.31,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_011,71.39,2026-01-01 20:15:00,10.29,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,150.21,2026-01-05 10:45:00,10.28,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,10.79,2026-01-02 17:30:00,10.27,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,95.28,2026-01-06 05:15:00,10.19,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,53.93,2026-01-01 13:15:00,10.07,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_011,201.77,2026-01-02 11:00:00,10.07,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,228.97,2026-01-06 10:15:00,10.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,81.34,2026-01-09 05:30:00,10.05,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,22.76,2026-01-06 07:15:00,10.04,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,97.62,2026-01-09 02:30:00,10.01,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,167.08,2026-01-07 20:00:00,10.01,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_009,263.72,2026-01-08 12:00:00,9.95,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,78.58,2026-01-09 01:45:00,9.9,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,19.03,2026-01-08 21:00:00,9.86,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,69.28,2026-01-04 14:00:00,9.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_004,71.7,2026-01-09 00:00:00,9.81,LOW,False,Submitted outside standard business hours; Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,160.46,2026-01-01 18:00:00,9.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,151.18,2026-01-07 20:45:00,9.79,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,24.2,2026-01-02 09:30:00,9.68,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,231.05,2026-01-02 08:15:00,9.62,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_015,209.72,2026-01-01 18:15:00,9.55,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,166.05,2026-01-02 21:45:00,9.51,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,159.96,2026-01-08 20:45:00,9.44,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,325.43,2026-01-07 18:45:00,9.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,27.87,2026-01-08 12:45:00,9.16,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,59.97,2026-01-04 15:45:00,9.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_017,105.67,2026-01-05 06:30:00,9.07,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,160.17,2026-01-06 15:30:00,8.99,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,257.09,2026-01-02 18:15:00,8.96,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,256.64,2026-01-01 16:15:00,8.94,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_006,146.13,2026-01-07 21:45:00,8.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,23.64,2026-01-01 17:45:00,8.81,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,146.8,2026-01-02 16:00:00,8.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,86.39,2026-01-06 19:00:00,8.72,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,98.68,2026-01-09 06:15:00,8.7,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,146.34,2026-01-08 21:45:00,8.7,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,95.17,2026-01-05 12:45:00,8.65,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,187.23,2026-01-05 20:45:00,8.64,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,162.81,2026-01-02 20:15:00,8.64,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,162.41,2026-01-08 13:15:00,8.61,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,219.41,2026-01-07 16:30:00,8.58,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_016,10.39,2026-01-08 13:00:00,8.56,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_009,85.51,2026-01-05 14:00:00,8.51,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,48.94,2026-01-04 12:00:00,8.44,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_011,59.21,2026-01-09 16:00:00,8.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,24.34,2026-01-05 07:30:00,8.36,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,291.02,2026-01-02 13:45:00,8.24,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,54.96,2026-01-03 15:30:00,8.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day); Logged on a weekend
+EMP_016,67.23,2026-01-07 19:00:00,8.09,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_020,310.02,2026-01-09 12:45:00,8.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,136.91,2026-01-05 16:45:00,7.98,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,178.98,2026-01-08 22:00:00,7.97,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_008,148.14,2026-01-06 15:15:00,7.96,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_015,283.12,2026-01-02 07:45:00,7.94,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,27.33,2026-01-07 17:15:00,7.94,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,206.86,2026-01-07 09:45:00,7.93,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,81.16,2026-01-01 07:30:00,7.89,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,164.47,2026-01-01 19:15:00,7.87,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,147.67,2026-01-07 13:45:00,7.86,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_016,268.43,2026-01-05 21:00:00,7.69,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,268.73,2026-01-09 08:45:00,7.68,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,143.03,2026-01-06 11:15:00,7.68,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,146.96,2026-01-06 20:00:00,7.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,16.31,2026-01-05 21:15:00,7.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,50.98,2026-01-09 15:15:00,7.53,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,139.12,2026-01-07 14:45:00,7.45,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,251.25,2026-01-01 06:30:00,7.41,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_006,124.97,2026-01-08 19:00:00,7.37,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,84.4,2026-01-09 17:45:00,7.36,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,201.38,2026-01-01 15:15:00,7.35,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_011,87.72,2026-01-02 08:00:00,7.31,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,13.16,2026-01-06 06:00:00,7.2,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,282.17,2026-01-02 10:15:00,7.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,132.61,2026-01-05 11:15:00,7.1,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,142.97,2026-01-06 22:45:00,7.08,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_014,132.0,2026-01-08 15:30:00,7.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,26.3,2026-01-01 10:00:00,6.97,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,42.45,2026-01-08 06:00:00,6.94,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,34.91,2026-01-08 18:00:00,6.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,111.97,2026-01-06 07:00:00,6.81,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_010,120.87,2026-01-08 09:15:00,6.74,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,197.8,2026-01-01 08:30:00,6.74,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,227.45,2026-01-01 09:45:00,6.74,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,228.29,2026-01-08 17:15:00,6.7,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,209.4,2026-01-06 10:00:00,6.6,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,45.74,2026-01-09 20:00:00,6.59,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,106.44,2026-01-02 14:45:00,6.55,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,169.64,2026-01-06 12:45:00,6.51,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,26.32,2026-01-02 17:45:00,6.51,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,146.59,2026-01-06 12:15:00,6.48,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,203.38,2026-01-08 22:45:00,6.4,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,137.75,2026-01-02 07:30:00,6.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,176.95,2026-01-08 16:45:00,6.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,77.12,2026-01-08 14:45:00,6.34,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,242.61,2026-01-09 12:30:00,6.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,176.47,2026-01-05 21:30:00,6.31,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,33.24,2026-01-07 08:30:00,6.28,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,266.17,2026-01-09 20:15:00,6.25,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,217.44,2026-01-05 16:00:00,6.24,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,96.48,2026-01-07 18:15:00,6.2,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_013,271.69,2026-01-09 15:45:00,6.19,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_016,66.13,2026-01-06 18:45:00,6.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,21.85,2026-01-02 16:30:00,6.16,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,30.16,2026-01-07 08:00:00,6.07,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,71.05,2026-01-01 10:15:00,6.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,104.05,2026-01-06 14:00:00,6.02,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,29.73,2026-01-08 09:30:00,6.01,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,38.81,2026-01-08 14:30:00,6.0,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,168.13,2026-01-05 12:00:00,5.87,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,56.49,2026-01-02 06:15:00,5.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_011,89.01,2026-01-09 08:15:00,5.81,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,57.19,2026-01-02 12:45:00,5.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,210.44,2026-01-09 11:00:00,5.78,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,82.64,2026-01-06 13:45:00,5.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,174.93,2026-01-07 14:30:00,5.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,47.18,2026-01-01 22:30:00,5.71,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,142.67,2026-01-07 22:45:00,5.66,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,45.42,2026-01-05 17:30:00,5.64,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,246.22,2026-01-06 12:30:00,5.54,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,92.88,2026-01-08 11:30:00,5.47,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,33.63,2026-01-06 22:15:00,5.46,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,50.1,2026-01-07 10:15:00,5.44,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,21.28,2026-01-05 18:30:00,5.43,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_003,39.48,2026-01-08 19:15:00,5.41,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,36.02,2026-01-05 07:00:00,5.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,29.15,2026-01-09 10:15:00,5.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,126.39,2026-01-09 18:30:00,5.3,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_020,176.26,2026-01-02 22:30:00,5.29,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,162.1,2026-01-02 21:00:00,5.22,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,145.5,2026-01-05 22:30:00,5.21,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,34.3,2026-01-05 13:15:00,5.13,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,122.17,2026-01-01 11:30:00,5.12,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_007,127.29,2026-01-06 06:45:00,5.12,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,248.09,2026-01-07 13:15:00,5.12,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,126.43,2026-01-02 13:00:00,5.09,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,29.9,2026-01-05 22:00:00,5.06,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_008,140.29,2026-01-09 06:45:00,5.06,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,35.05,2026-01-09 21:00:00,5.04,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_014,92.73,2026-01-08 17:45:00,5.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,28.77,2026-01-09 14:00:00,4.91,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,108.77,2026-01-05 17:15:00,4.87,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,23.66,2026-01-08 11:45:00,4.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,271.03,2026-01-05 19:30:00,4.77,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,74.48,2026-01-01 06:45:00,4.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,112.26,2026-01-02 07:15:00,4.67,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,79.99,2026-01-06 15:45:00,4.63,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,139.92,2026-01-06 17:45:00,4.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,19.78,2026-01-09 13:45:00,4.55,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,57.68,2026-01-01 11:00:00,4.53,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,81.81,2026-01-07 21:15:00,4.43,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,89.92,2026-01-06 16:15:00,4.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,50.12,2026-01-06 20:45:00,4.35,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,109.18,2026-01-02 12:30:00,4.34,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_015,68.73,2026-01-01 17:30:00,4.28,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,98.53,2026-01-08 22:30:00,4.14,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_003,76.43,2026-01-05 19:45:00,4.13,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,37.29,2026-01-08 06:15:00,4.09,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,21.78,2026-01-01 10:30:00,4.08,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,75.51,2026-01-02 08:45:00,4.07,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,47.38,2026-01-06 07:45:00,4.03,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,229.54,2026-01-09 11:15:00,4.01,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,138.41,2026-01-09 22:15:00,4.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,36.03,2026-01-09 13:30:00,3.99,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,99.34,2026-01-06 21:45:00,3.99,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,54.54,2026-01-08 20:30:00,3.98,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,199.68,2026-01-08 08:15:00,3.97,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,74.97,2026-01-02 15:15:00,3.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,58.14,2026-01-08 21:30:00,3.8,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,22.14,2026-01-02 16:45:00,3.74,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_015,123.97,2026-01-07 07:45:00,3.73,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,203.16,2026-01-02 20:45:00,3.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,181.13,2026-01-05 13:45:00,3.71,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,231.1,2026-01-02 09:45:00,3.63,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,68.41,2026-01-09 20:30:00,3.61,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,85.51,2026-01-06 11:45:00,3.56,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_009,41.3,2026-01-07 09:30:00,3.53,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_012,62.26,2026-01-05 09:00:00,3.5,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,63.68,2026-01-09 09:15:00,3.46,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_007,55.91,2026-01-02 06:00:00,3.37,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,85.95,2026-01-01 06:00:00,3.35,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,76.74,2026-01-06 13:30:00,3.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,222.24,2026-01-05 15:00:00,3.24,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_010,60.08,2026-01-06 13:15:00,3.18,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,26.27,2026-01-05 16:30:00,3.16,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,80.33,2026-01-07 11:30:00,3.04,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,96.22,2026-01-06 16:45:00,3.0,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_004,73.7,2026-01-05 17:45:00,2.99,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,97.52,2026-01-06 21:15:00,2.91,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_009,89.86,2026-01-02 15:30:00,2.9,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_020,193.08,2026-01-02 15:45:00,2.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,137.66,2026-01-09 21:45:00,2.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_016,99.52,2026-01-06 22:30:00,2.85,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,91.3,2026-01-06 08:00:00,2.83,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_020,127.56,2026-01-06 10:45:00,2.76,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,31.75,2026-01-02 12:15:00,2.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,187.22,2026-01-02 22:00:00,2.72,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,127.54,2026-01-05 06:45:00,2.71,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_017,118.23,2026-01-06 11:00:00,2.44,LOW,False,Behavioral profile shows minor statistical anomaly
+EMP_019,106.62,2026-01-09 09:45:00,2.38,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,207.49,2026-01-08 16:15:00,2.36,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,54.22,2026-01-07 10:45:00,2.34,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,97.7,2026-01-08 22:15:00,2.33,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,108.4,2026-01-01 09:15:00,2.28,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,123.37,2026-01-05 08:15:00,2.19,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,92.24,2026-01-02 08:30:00,2.17,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,70.87,2026-01-09 06:30:00,2.15,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_019,66.15,2026-01-08 19:30:00,2.13,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_009,68.31,2026-01-05 20:00:00,2.11,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,51.89,2026-01-09 11:30:00,2.03,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,88.63,2026-01-01 12:45:00,1.97,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,38.04,2026-01-09 08:00:00,1.86,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,118.6,2026-01-08 13:30:00,1.83,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_017,67.43,2026-01-07 15:45:00,1.74,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,114.32,2026-01-09 18:00:00,1.57,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,116.04,2026-01-09 13:15:00,1.42,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,121.06,2026-01-08 06:45:00,1.38,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_013,52.66,2026-01-05 11:00:00,1.32,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,124.05,2026-01-09 19:15:00,1.26,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,93.48,2026-01-01 06:15:00,1.19,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,92.41,2026-01-09 08:30:00,1.09,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,73.33,2026-01-02 15:00:00,1.09,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,132.03,2026-01-01 15:00:00,1.05,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,36.51,2026-01-02 13:15:00,1.01,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_012,72.16,2026-01-01 14:15:00,0.67,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,115.63,2026-01-01 13:45:00,0.49,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,90.65,2026-01-06 09:15:00,0.45,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,54.57,2026-01-09 12:15:00,0.44,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,87.96,2026-01-06 15:00:00,0.39,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_020,85.79,2026-01-06 20:15:00,0.22,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_004,116.92,2026-01-09 15:30:00,0.07,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
+EMP_006,87.88,2026-01-06 17:15:00,0.0,LOW,False,Unusual daily transaction velocity (5+ in 1 day)
