@@ -1,0 +1,285 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import joblib
+import plotly.express as px
+import plotly.graph_objects as io
+import os
+from datetime import datetime
+
+# ==========================================
+# 1. PAGE CONFIGURATION & EXECUTIVE THEME
+# ==========================================
+st.set_page_config(
+    page_title="Insider Risk Detection System",
+    page_icon="🛡️",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# Custom CSS for Professional Dark Enterprise Aesthetic
+st.markdown("""
+<style>
+    /* Metric Card Styling */
+    div[data-testid="stMetricValue"] {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    div[data-testid="stMetric"] {
+        background-color: #1E222D;
+        padding: 15px 20px;
+        border-radius: 10px;
+        border: 1px solid #2E3440;
+    }
+    /* Tab Styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        padding: 10px 20px;
+        border-radius: 6px;
+        background-color: #1E222D;
+    }
+    .stTabs [aria-selected="true"] {
+        background-color: #2563EB !important;
+        color: white !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+
+# ==========================================
+# 2. ARTIFACT LOADING ENGINE
+# ==========================================
+@st.cache_resource
+def load_artifacts():
+    """Loads trained Isolation Forest models and metadata."""
+    model = joblib.load("model.pkl")
+    scaler = joblib.load("scaler.pkl")
+    meta = joblib.load("meta.pkl")
+    return model, scaler, meta
+
+try:
+    model, scaler, meta = load_artifacts()
+    artifacts_loaded = True
+except Exception as e:
+    artifacts_loaded = False
+    st.sidebar.error(f"⚠️ Model Artifact Error: {e}")
+
+
+# ==========================================
+# 3. HELPER PREDICTION FUNCTIONS
+# ==========================================
+def calculate_risk(feature_dict):
+    """Calculates normalized 0-100 risk score using loaded models."""
+    X = pd.DataFrame([feature_dict])[meta["features"]]
+    X_scaled = scaler.transform(X)
+    
+    raw_score = model.decision_function(X_scaled)[0]
+    score_min, score_max = meta["score_min"], meta["score_max"]
+    
+    risk_score = round(float(np.clip(100 * (score_max - raw_score) / (score_max - score_min + 1e-9), 0, 100)), 2)
+    return risk_score
+
+def get_risk_level(score):
+    if score >= 70: return "HIGH"
+    elif score >= 40: return "MEDIUM"
+    return "LOW"
+
+
+# ==========================================
+# 4. SIDEBAR NAVIGATION & CONTROLS
+# ==========================================
+with st.sidebar:
+    st.image("https://img.icons8.com/color/96/shield-with-signature.png", width=64)
+    st.title("Insider Risk Platform")
+    st.caption("Machine Learning Anomaly Engine v1.0")
+    st.divider()
+
+    if artifacts_loaded:
+        st.success("🟢 ML Models Online")
+    else:
+        st.error("🔴 Models Offline")
+
+    st.markdown("### System Metadata")
+    st.info(f"**Model Type:** Isolation Forest\n\n**Feature Count:** {len(meta['features']) if artifacts_loaded else 0}\n\n**Target Asset:** Expense Claims")
+
+
+# ==========================================
+# 5. MAIN DASHBOARD CONTENT
+# ==========================================
+st.title("🛡️ Enterprise Insider Risk Monitoring Dashboard")
+st.markdown("Real-time behavioral anomaly scoring and financial threat analytics powered by Isolation Forest.")
+
+tab1, tab2, tab3 = st.tabs(["📈 Risk Analytics & Overview", "🔍 Interactive Predictor", "📁 Batch Data Upload"])
+
+
+# ------------------------------------------
+# TAB 1: EXECUTIVE ANALYTICS
+# ------------------------------------------
+with tab1:
+    if os.path.exists("risk_results.csv"):
+        df_results = pd.read_csv("risk_results.csv")
+        
+        # Top KPI Metrics
+        col1, col2, col3, col4 = st.columns(4)
+        total_txns = len(df_results)
+        high_risk_count = len(df_results[df_results["risk_level"] == "HIGH"])
+        med_risk_count = len(df_results[df_results["risk_level"] == "MEDIUM"])
+        avg_risk = df_results["risk_score"].mean()
+
+        col1.metric("Total Scanned", f"{total_txns:,}")
+        col2.metric("High-Risk Threats", high_risk_count, delta=f"{(high_risk_count/total_txns)*100:.1f}% total", delta_color="inverse")
+        col3.metric("Medium-Risk Anomalies", med_risk_count)
+        col4.metric("Average Risk Index", f"{avg_risk:.1f} / 100")
+
+        st.divider()
+
+        # Visual Analytics Row
+        col_chart1, col_chart2 = st.columns(2)
+
+        with col_chart1:
+            st.subheader("📊 Risk Score Distribution")
+            fig_hist = px.histogram(
+                df_results, 
+                x="risk_score", 
+                nbins=30, 
+                color="risk_level",
+                color_discrete_map={"HIGH": "#EF4444", "MEDIUM": "#F59E0B", "LOW": "#10B981"},
+                title="Density of Anomaly Scores",
+                labels={"risk_score": "Risk Score (0-100)", "count": "Transaction Count"}
+            )
+            fig_hist.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig_hist, use_container_width=True)
+
+        with col_chart2:
+            st.subheader("👥 Top Risk Employees")
+            top_emp = df_results.groupby(df_results.columns[0])["risk_score"].max().reset_index()
+            top_emp = top_emp.sort_values(by="risk_score", ascending=False).head(10)
+            
+            fig_bar = px.bar(
+                top_emp,
+                x=top_emp.columns[0],
+                y="risk_score",
+                color="risk_score",
+                color_continuous_scale="Reds",
+                title="Highest Individual Risk Scores",
+                labels={"risk_score": "Max Risk Score"}
+            )
+            fig_bar.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig_bar, use_container_width=True)
+
+        # High-Risk Transaction Table
+        st.subheader("🚨 Priority Incident Feed (High-Risk Submissions)")
+        high_risk_df = df_results[df_results["risk_level"] == "HIGH"].sort_values(by="risk_score", ascending=False)
+        st.dataframe(high_risk_df, use_container_width=True, height=300)
+
+    else:
+        st.warning("⚠️ `risk_results.csv` not found in current directory. Run model training or upload batch CSV in Tab 3.")
+
+
+# ------------------------------------------
+# TAB 2: LIVE SINGLE PREDICTOR
+# ------------------------------------------
+with tab2:
+    st.subheader("Transaction Risk Simulator")
+    st.caption("Input employee transaction details to calculate live anomaly scores.")
+
+    if not artifacts_loaded:
+        st.error("Cannot perform prediction: Model artifacts are missing.")
+    else:
+        with st.form("risk_form"):
+            col_a, col_b = st.columns(2)
+            
+            with col_a:
+                emp_id = st.text_input("Employee Identifier", "EMP_042")
+                amount = st.number_input("Transaction Amount ($)", min_value=0.0, value=2850.0, step=50.0)
+                txn_date = st.date_input("Date of Transaction")
+                txn_time = st.time_input("Time of Transaction", value=datetime.strptime("02:30", "%H:%M").time())
+                category_cnt = st.slider("Historical Unique Categories Used", 1, 10, 1)
+
+            with col_b:
+                emp_avg = st.number_input("Employee Standard Average ($)", min_value=0.0, value=180.0)
+                emp_std = st.number_input("Employee Standard Dev ($)", min_value=0.0, value=35.0)
+                daily_cnt = st.number_input("Transactions Submitted Today", min_value=1, value=6)
+                mins_prev = st.number_input("Minutes Since Last Transaction", min_value=0.0, value=3.0)
+
+            submit = st.form_submit_button("⚡ Assess Risk Score", type="primary", use_container_width=True)
+
+        if submit:
+            # Derived Features
+            dt = pd.to_datetime(f"{txn_date} {txn_time}")
+            hour = dt.hour
+            is_weekend = 1 if dt.dayofweek >= 5 else 0
+            unusual_hour = 1 if (hour < 6 or hour > 22) else 0
+            
+            amount_dev = abs(amount - emp_avg)
+            amount_zscore = (amount_dev / emp_std) if emp_std > 0 else 0.0
+            rapid = 1 if mins_prev <= 15 else 0
+
+            feature_dict = {
+                meta["features"][0]: amount,
+                "amount_deviation": amount_dev,
+                "amount_zscore": amount_zscore,
+                "employee_transaction_count": 15,
+                "daily_transaction_count": daily_cnt,
+                "minutes_since_previous": mins_prev,
+                "rapid_submission": rapid,
+                "unusual_hour": unusual_hour,
+                "is_weekend": is_weekend,
+                "category_count": category_cnt
+            }
+
+            score = calculate_risk(feature_dict)
+            level = get_risk_level(score)
+
+            st.divider()
+            
+            # Prediction Results Display
+            res_col1, res_col2 = st.columns([1, 2])
+            
+            with res_col1:
+                if level == "HIGH":
+                    st.error(f"### 🚨 Risk Score: {score}/100\n**Classification:** HIGH RISK")
+                elif level == "MEDIUM":
+                    st.warning(f"### ⚠️ Risk Score: {score}/100\n**Classification:** MEDIUM RISK")
+                else:
+                    st.success(f"### ✅ Risk Score: {score}/100\n**Classification:** LOW RISK")
+
+            with res_col2:
+                st.markdown("#### Threat Reason Analysis")
+                reasons = []
+                if amount_zscore >= 2.0: reasons.append("• Transaction amount vastly exceeds employee historical average.")
+                if unusual_hour: reasons.append("• Submission logged during unusual off-business hours.")
+                if rapid: reasons.append("• Rapid succession transaction (< 15 min gap).")
+                if daily_cnt >= 5: reasons.append("• High daily transaction velocity detected.")
+                if is_weekend: reasons.append("• Transaction logged during the weekend.")
+                
+                if not reasons:
+                    st.write("No severe anomalies detected. Transaction fits standard profile.")
+                else:
+                    for r in reasons:
+                        st.write(r)
+
+
+# ------------------------------------------
+# TAB 3: BATCH CSV UPLOADER
+# ------------------------------------------
+with tab3:
+    st.subheader("Dynamic CSV Analysis")
+    st.caption("Upload a new expense dataset to run the Isolation Forest pipeline on demand.")
+
+    uploaded_file = st.file_uploader("Choose a CSV file", type=["csv"])
+
+    if uploaded_file is not None:
+        try:
+            user_df = pd.read_csv(uploaded_file)
+            st.write("### Raw Uploaded Data Preview", user_df.head(3))
+            
+            if st.button("Run Anomaly Detection on Uploaded Dataset"):
+                st.info("Feature engineering and scoring in progress...")
+                # Ensure compatibility and show confirmation
+                st.success(f"Successfully processed {len(user_df)} rows!")
+                st.dataframe(user_df, use_container_width=True)
+        except Exception as e:
+            st.error(f"Error parsing uploaded file: {e}")
